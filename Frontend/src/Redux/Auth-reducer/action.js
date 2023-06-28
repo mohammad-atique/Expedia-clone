@@ -12,7 +12,7 @@ export const Signigfun = (data) => (dispatch) => {
   dispatch({ type: SIGNIN_REQUEST });
 
   axios
-    .post("https://expedia-apiproject.herokuapp.com/auth/login", data)
+    .post("https://expedia-backend-api.onrender.com/auth/login", data)
     .then((response) => {
       dispatch({ type: SIGNIN_SUCCESS, payload: response.data });
     })
@@ -32,7 +32,7 @@ export const Createaccount = (data) => (dispatch) => {
   dispatch({ type: CREATE_REQUEST });
 
   axios
-    .post("https://expedia-apiproject.herokuapp.com/auth/register", data)
+    .post("https://expedia-backend-api.onrender.com/auth/register", data)
     .then((response) => {
       dispatch({ type: CREATE_SUCCESS, payload: response.data.data });
     })
