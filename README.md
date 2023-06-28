@@ -9,7 +9,7 @@ Expedia is one of the fastest growing online travel portals in Asia, offering tr
 
 \*We as a team given a task to Clone the Expedia.co.in Website.\*\*
 
-# To visit our website [Click here](https://expedia-tawny.vercel.app/)
+# To visit our website [Click here](https://clonexpedia.netlify.app/)
 
 ## NPM Packages used
 
